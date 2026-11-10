@@ -1,5 +1,5 @@
 # Kauguras skolas tīmekļa vietne
- 
+3.0 Versija
 
 ## Autors
  
