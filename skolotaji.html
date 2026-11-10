@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Skolotāji – Kauguru vidusskola</title>
+  <meta name="theme-color" content="#0E2433">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="KVS">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="icon" href="logo.png">
+  <link rel="apple-touch-icon" href="logo.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700&family=Unbounded:wght@500;600;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/js-sha256@0.11.0/build/sha256.min.js" async></script>
+  <script src="db.js"></script>
+  <script src="menu.js"></script>
+  <script src="auth.js"></script>
+</head>
+
+<body class="bg-photo">
+  <a class="skip-link" href="#saturs">Pāriet uz saturu</a>
+  <img src="kgvsk.png" alt="" class="bg-image">
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="Jūrmalas Kauguru vidusskola – sākums">
+        <img src="logo.png" alt="" width="38" height="38">
+        <span>Kauguru vidusskola<small>Jūrmala</small></span>
+      </a>
+
+      <nav class="nav" aria-label="Galvenā navigācija">
+        <ul>
+        <li><a href="index.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 10.5 12 3l9 7.5V20a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z"/></svg><span>Sākums</span></a></li>
+        <li><a href="jaunumi.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 8.5h10M7 12h10M7 15.5h6"/></svg><span>Jaunumi</span></a></li>
+        <li><a href="info.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5.5M12 7.6v.1"/></svg><span>Par mums</span></a></li>
+        <li><a href="kalendars.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg><span>Kalendārs</span></a></li>
+        <li><a href="kon.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h3.5l2 5-2.4 1.6a11 11 0 0 0 5.3 5.3L15 13.5l5 2V19a2 2 0 0 1-2 2A15 15 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg><span>Kontakti</span></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="saturs">
+    <section class="hero">
+      <div class="container">
+        <!-- Skolotāji: saturs tiks pievienots vēlāk -->
+        <h1>Skolas administrācija</h1>
+          <h4>Direktore - Ella Daņiloha</h4>
+          <h4>Direktores vietnieks audzināšanas darbā - Marina Ļvova</h4>
+          <h4>Direktores vietnieks skolas somas un skolēnu pašpārvaldes jautājumos  - Gļebs Liņevs</h4>
+          <h4>Direktores vietnieks skolēnu pašpārvaldes jautājumos - Jekaterīna Lāce</h4>
+          <h4>Direktores vietnieks izglītības jomā (4. - 12. klases) - Sergejs Fedosenko</h4>
+          <h4>Direktores vietnieks IT jomā - Veronika Girko</h4>
+          <h4>Direktora vietniece metodiskā darbā - Sņežana Bedņika</h4>
+          <h4>Direktora vietniece mācību darbā - Viktorija Karavajeva</h4>
+          <h4>Direktora vietnieks iekļaujošās izglītības jautājumos - Zigrīda Lagoša</h4>
+        <h1>Metodiskās jomas</h1>
+          <h4>Sociālā un pilsoniskā joma - Larisa Jokša</h4>
+          <h4>Valodu, kultūras izpratnes, pašizpausmes mākslas joma - Zigrīda Lagoša</h4>
+          <h4>Dabaszinātņu, matemātikas, tehnoloģiju joma - Karīna Mihejenko</h4>
+          <h4>Veselības un fiziskās aktivitātes joma - Jeļena Rodionova</h4>
+          <h4>Sākumizglītības joma - Zaiga Dambe</h4>
+          <h4>Iekļaujošas izglītības atbalsta joma - Tatjana Prokofjeva</h4>
+        <h1>Klašu audzinātāji</h1>
+        <h2>Sākumskola</h2>
+          <h4>1.a klase - Oksana Strode</h4>
+          <h4>1.b klase - Alīna Aļošina</h4>
+          <h4>2.a klase - Nataļja Germane-Froļonoka</h4>
+          <h4>2.b klase - Irina Sokolova</h4>
+          <h4>2.c klase - Inna Šterna - Stirne</h4>
+          <h4>3.a klase - Larisa Abramovska</h4>
+          <h4>3.b klase - Oksana Smirnova</h4>
+          <h4>3.c klase - Karīna Kačane</h4>
+        <h2>Pamatskola</h2>
+          <h4>4.a klase - Ilze Savicka</h4>
+          <h4>4.b klase - Nadežda Lauhina</h4>
+          <h4>4.c klase - Santa Krutskiha</h4>
+          <h4>5.a klase -  Maryna Petrova</h4>
+          <h4>5.b klase - Jeļena Imaka</h4>
+          <h4>5.c klase - Karīna Staško</h4>
+          <h4>6.a klase - Žanna Nikolajeva</h4>
+          <h4>6.b klase - Marina Ļvova</h4>
+          <h4>6.c klase - Gļebs Liņevs</h4>
+          <h4>7.a klase - Nadežda Girko</h4>
+          <h4>7.b klase - Marina Mihailova</h4>
+          <h4>7.c klase - Jevgēnija Minckovska</h4>
+          <h4>8.a klase - Nataļja Kopača</h4>
+          <h4>8.b klase - Nataļja Žitkova</h4>
+          <h4>8.c klase - Aleksandrs Fjodorovs</h4>
+          <h4>9.a klase - Jekaterina Lāce</h4>
+          <h4>9.b klase - Ņina Eihlere</h4>
+        <h2>Vidusskola</h2>
+          <h4>10. klase - Tatjana Ļihačova</h4>
+          <h4>11. klase - Žanna Nikolajeva</h4>
+          <h4>12. klase - Nataļja Žitkova</h4>
+        <h1>Priekšmeta skolotāji</h1>
+          <h4>Ķīmija - Jeļena Šaranda, Karīna Mihejenko</h4>
+          <h4>Fizika - Jūlija Risņika</h4>
+          <h4>Sociālās zinības un vēsture - Ludmila Markuševa, Larisa Jokša</h4>
+          <h4>Latvijas un pasaules vēsture, Vēsture I, Vēsture II - Larisa Jokša</h4>
+          <h4>Latviešu valoda un literatūra - Santa Krutskiha, Gita Hudobkina, Tatjana Ļihačova, Nadežda Girko, Zaiga Dambe, Ilze Savicka, Daila Labrence, Zigrīda Lagoša, Larisa Abramovska, Irina Sokolova, Nataļja Germane - Froļonoka, Oksana Strode</h4>
+          <h4>Sports un veselība - Vladimirs Antonovs, Artjoms Križanovskis, Jeļena Rodionova, Jevgēnijs Smirnovs</h4>
+          <h4>Angļu valoda - Tatiana Kolotilkina, Jevgēnija Minckovska, Sņežana Bedņika, Svetlana Smirnova, Maryna Petrova, Jekaterina Lāce, Natālija Bartuša, Natālija Kašuba</h4>
+          <h4>Vācu valoda - Ludmila Ābelīte, Irina Katkēviča, Jeļena Vasiļonoka</h4>
+          <h4>Krievu valoda un literatūra – Tatjana Lomako, Žanna Nikolajeva, Nataļja Žitkova, Ludmila Markuševa</h4>
+          <h4>Matemātika - Jekaterina Kozlova, Ilze Vītiņa, Nataļja Kopača, Karīna Staško, Olga Burņina, Nadežda Lauhina, Volha Shtroms</h4>
+          <h4>Dizains un tehnoloģijas/Inženierzinības - Ņina Eihlere, Gļebs Liņevs, J. Lāce, Katrīna Magdalēna Švilpe</h4>
+          <h4>Dabaszinības - Jekaterina Lāce, Karina Mihejenko, Aleksandrs Fjodorovs, Irina Lipska, Jūlija Risņika, Zigrīda Lagoša</h4>
+          <h4>Mūzika - Roman Testeļec, Darja Karaļuka</h4>
+          <h4>Bioloģija - Karīna Mihejenko, Karīna Staško</h4>
+          <h4>Datorika - Vineta Fedosenko, Veronika Girko,  Nadežda Lauhina, Vitālijs Ivanovs</h4>
+          <h4>Vizuālā māksla - Ņina Eihlere</h4>
+          <h4>Programmēšana - Vitālijs Ivanovs</h4>
+          <h4>Ģeogrāfija - Aleksandrs Fjodorovs</h4>
+          <h4>Psiholoģija - Aleksandra Kukuškina</h4>
+          <h4>Projekta darbs - Aleksandra Kukuškina</h4>
+          <h4>Pētījuma metodoloģija - Sņežana Bedņika</h4>
+          <h4>Sociālās zinības un vēsture / Vēsture un sociālās zinātnes I / sociālās zinības - Larisa Jokša, Marina Mihailova, Aleksandra Kukuškina, Ludmila Markuševa, Marina Ļvova</h4>
+          <h4>Teātra māksla - Nataļja Žitkova</h4>
+          <h4>Mācīšana un mācīšanās - Ella Daņiloha, Evelīna Bražkina</h4>
+
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
