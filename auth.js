@@ -71,8 +71,7 @@
   function logout() {
     set(null);
     user = null;
-    if (needsAuth) { location.replace('index.html'); return; }
-    guard(); renderAuth(); renderMenu();
+    location.replace('index.html');
   }
 
   /* ---------- Nolaižamā izvēlne ---------- */
